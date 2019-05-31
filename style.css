@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .wrapper {
@@ -27,8 +28,21 @@ body {
   background-repeat: no-repeat;
 }
 
+#bio {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: 1.35rem;
+    text-align: center;
+}
+
 footer {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
   text-align: center;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 img {
@@ -66,6 +80,7 @@ nav ul a:hover {
 
 .content {
     padding: 20px 0 20px 0;
+    font-size: 1.25rem;
 }
 
 .content:nth-child(even) {
