@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #83FFFF; /*turquoise*/
+  --secondary-color: #A7F205; /*lime-green*/
+  --tertiary-color: ##F189EA; /*pink*/
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 576px;
+}
+
+#hero {
+  background-image: url("hero.jpg");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+}
